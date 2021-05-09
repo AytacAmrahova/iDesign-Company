@@ -1,0 +1,233 @@
+@media screen and (max-width:1000px){
+    nav {
+        width: 70%;
+    }
+    .brand {
+        width: 30%;
+    }
+    .recent-works-item img {
+        width: 90%;
+        height: 125px;
+    }
+    .what-we-do {
+        min-height: 672px;
+    }
+    .recent-works-info p {
+        font-size: 12px;
+    }
+    .offers-left img {
+        margin-top: 35%;
+        width: 100%;
+    }
+    .offers-right {
+        margin-top: 6%;
+        width: 50%;
+        float: left;
+    }
+    .client-item-right {
+        width: 67%;
+        float: left;
+    }
+    .client-item-left {
+        width: 30%;
+    }
+    .client-item-left img {
+        height: 100px;
+    }
+    .footer-item {
+        float: left;
+        width: 50%;
+        height: 100px;
+        margin-top: 5%;
+    }
+    .what-we-do {
+        min-height: 900px;
+    }
+    .quick-form form input, .quick-form form textarea {
+        margin-top: 1%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:915px){
+    .business .owl-next span {
+        margin-top: -216px;
+    }
+    .business .owl-prev span {
+        margin-top: -216px;
+    }
+
+
+}
+@media screen and (max-width:785px){
+    .brand {
+        width: 26%;
+    }
+    nav {
+        width: 73%;
+    }
+    .business {
+        height: 500px;
+    }
+    .item-left {
+        width: 100%;
+        height: 150px;
+    }
+    .item-right {
+        width: 46%;
+        margin: 2%;
+    }
+    .we-offer {
+        width: 100%;
+        height: 170px;
+    }
+    .we-offer-bottom {
+        width: 46%;
+        margin: 2%;
+    }
+}
+@media screen and (max-width:760px){
+
+    nav {
+        display:none;
+    }
+    .brand {
+        width: 40%;
+    }
+    .item-right {
+        width: 100%;
+    }
+    .we-offer-bottom p {
+        margin-top: 4%;
+    }
+    .we-offer-bottom {
+        width: 100%;
+    }
+    .what-we-do-item p {
+        margin-top: 4%;
+    }
+    .what-we-do-item i {
+        margin-right: 1%;
+    }
+    .we-offer-bottom i {
+        margin-right: 1%;
+    }
+    .we-offer-bottom h3 {
+        margin-top: 1%;
+    }
+}
+@media screen and (max-width:668px){
+    .business-slider-content {
+        width: 61%;
+    }
+    .recent-works-item img {
+        width: 75%;
+        height: 200px;
+    }
+    .recent-works-info {
+        width: 90%;
+        margin-left: 4%;
+        float: left;
+    }
+    .recent-works-info p {
+        font-size: 18px;
+    }
+    .recent-works-item {
+        width: 90%;
+        float: left;
+        margin-left: 3%;
+    }
+    .what-we-do {
+        min-height: 900px;
+    }
+    .clients {
+        width: 100%;
+        min-height: 300px;
+        float: left;
+    }
+
+}
+@media screen and (max-width:540px){
+    .brand {
+        width: 45%;
+    }
+    .business-slider-content {
+        width: 80%;
+    }
+    .we-offer {
+        width: 100%;
+        height: 200px;
+    }
+    .business-slider-content h1 {
+        font-size: 38px;
+    }
+    .client-body-item {
+        float: left;
+        width: 100%;
+        margin-top: 3%;
+    }
+    .offers-left {
+        width: 100%;
+        float: left;
+    }
+    .offers-right {
+        margin-top: 6%;
+        width: 100%;
+        float: left;
+    }
+}
+
+@media screen and (max-width:430px){
+    .brand {
+        width: 60%;
+    }
+    .business-slider-content h1 {
+        font-size: 35px;
+    }
+    .business-slider-content h1 {
+        font-size: 30px;
+    }
+    .recent-works-item img {
+        width: 75%;
+        height: 150px;
+    }
+    .icon {
+        font-size: 11px;
+        float: left;
+        margin-right: 1%;
+        margin-top: 2%;
+    }
+    .recent-posts {
+        text-align: justify;
+        /* margin-right: 10%; */
+        margin-top: -10%;
+    }
+    .footer-item {
+        float: left;
+        width: 100%;
+    }
+    footer{
+        min-height:530px;
+    }
+}
+@media screen and (max-width:340px){
+    .brand {
+        width: 70%;
+    }
+    .business-slider-content h1 {
+        font-size: 26px;
+    }
+    .quick-form form input, .quick-form form textarea {
+        margin-top: 1%;
+        width: 150px;
+    }
+    .recent-works-item img {
+        width: 75%;
+        height: 130px;
+    }
+    .recent-posts {
+        margin-top: -20%;
+    }
+    
+
+
+}

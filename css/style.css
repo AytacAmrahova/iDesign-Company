@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #198dc8;
+}
+.brand{
+    width: 20%;
+    float: left;
+    margin-top: 18px;
+}
+.brand i{
+    width: 10%;
+    height: 18px;
+    background-color: #fff;
+    float: left;
+    text-align: center;
+    margin-right: 2%;
+}
+nav{
+    width: 60%;
+    float: right;
+    line-height: 35px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+/*section business style*/
+.business{
+    width: 100%;
+    min-height:450px;
+    float: left;
+    background-image: url(../img/businessman-profile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.business-slider-content{
+    width: 50%;
+    min-height: 200px;
+    padding-top: 80px;
+    margin-left: 5%;
+
+}
+
+.business-slider-content h1{
+    font-size: 45px;
+}
+.business-slider-content h1 span{
+    color:#8d8d8d;
+}
+
+
+.business-slider-content p{
+    text-align: justify;
+}
+
+ .business .owl-prev span {
+    position: absolute;
+    left: 0;
+    margin-top: -144px;
+    font-size: 50px;
+    color: blue;
+}
+
+ .business .owl-next span {
+    position: absolute;
+    right: 0;
+    margin-top: -144px;
+    font-size: 50px;
+    color: blue;
+}
+.our-website{
+    width: 100%;
+    min-height: 250px;
+    float: left;
+}
+
+.our-website h3{
+    margin-top: 5%;
+}
+
+.our-website p{
+    padding-top: 20px;
+}
+
+/* section what we do*/
+.what-we-do{
+    width: 100%;
+    min-height: 500px;
+    float: left;
+    background-color: #217dac;
+    color: #fff;
+}
+.what-we-do-top{
+    width: 100%;
+}
+.what-we-do-top-items{
+    width: 100%;
+}
+.what-we-do-item{
+    float: left;
+}
+.what-we-do-item i{
+    float: left;
+    font-size: 35px;
+    margin-right: 4%;
+}
+.what-we-do-item p{
+    margin-top: 6%;
+    text-align: justify;
+}
+.what-we-do-item h3{
+    margin-top: 1.5%;
+}
+.item-left{
+    width: 40%;
+    height: 120px;
+}
+.item-right{
+    width: 26%;
+    margin: 2%;
+}
+.what-we-do-bottom{
+    width: 100%;
+}
+
+.what-we-do-bottom-items{
+    width: 100%;
+}
+
+.what-we-do-bottom-item{
+    float: left;
+}
+.we-offer{
+    width: 40%;
+    height: 150px;
+}
+.we-offer-content{
+    margin-top:3% ;
+}
+.we-offer-bottom{
+    width: 26%;
+    margin: 2%;
+}
+.we-offer-icon i{
+    font-size: 12px;
+    float: left;
+    margin: 0 10px;
+}
+.we-offer-bottom i{
+    font-size: 35px;
+    float: left;
+    margin-right: 4%;
+}
+
+.we-offer-bottom p{
+    margin-top: 6%;
+    text-align: justify;
+}
+
+/*recent works section style*/
+.recent-works{
+    width: 100%;
+    min-height: 200px;
+    min-height: 200px;
+    float: left;
+}
+.recent-work{
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    padding-top: 20px;
+    position: relative;
+    margin-top: -6%;
+}
+.recent-works-info{
+    width: 25%;
+    margin-left: 4%;
+    float: left;
+}
+
+.recent-works-info p{
+    margin-top: 3%;
+}
+.recent-works-info button{
+    margin-top: 8%;
+    width: 100px;
+    height: 30px;
+    background-color: #198dc8;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.recent-works-items{
+    width: 71%;
+    float: left;
+}
+.recent-works-item{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+.recent-works-item img{
+    width: 70%;
+    height: 160px;
+    border-radius: 200px;
+}
+.recent-works-item h5{
+    margin-left: 9%;
+    margin-top: 3%;
+}
+/* offers section*/
+
+.offers{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    background-color: #8d8d8d;
+}
+
+.offers-left{
+    width: 50%;
+    float: left;
+}
+.offers-left img{
+    margin-top: 10%;
+    width: 100%;
+}
+.offers-right{
+    margin-top: 6%;
+    width: 40%;
+    float:left;
+}
+
+.offers-item{
+    margin-top: 3%;
+}
+
+.offers-item i{
+    float: left;
+    font-size: 13px;
+    color: #217dac;
+    margin-right: 1%;
+}
+.offers-right button{
+    width: 100px;
+    height: 30px;
+    margin-top: 3%;
+    background-color: #198dc8;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+.clients{
+    width: 100%;
+    min-height: 250px;
+    float: left;
+}
+.client-head h3{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.client-body{
+    width: 100%;
+    float: left;
+}
+.client-body-items{
+    width: 100%;
+    float: left;
+}
+.client-body-item{
+    float: left;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.client-body-items{
+    width: 100%;
+   float: left;
+}
+.client-item-left{
+    width: 20%;
+}
+.client-item-left img{
+    width: 100%;
+    height: 110px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 5%;
+}
+.client-item-right{
+    width: 75%;
+    float: left;
+}
+.client-item-right p ,h5{
+  width: 100%;
+}
+.client-item-right h5{
+    margin-top: 2%;
+}
+
+.client-item-right p {
+    border-bottom: 2px solid #198dc8;
+}
+
+footer{
+    width: 100%;
+    min-height:400px;
+    background-color: #198dc8;
+    float: left;
+    color: #fff;
+}
+.footer-items{
+    width: 100%;
+    float: left;
+}
+.footer-item{
+    float: left;
+    width: 25%;
+    margin-top: 5%;
+}
+.icon{
+    font-size: 15px;
+    float: left;
+    margin-right: 2%;
+}
+.body-item{
+    margin-top: 3%;
+}
+.social-media-links a i{
+    margin-top: 3%;
+    width: 25px;
+    height: 25px;
+    line-height: 22px;
+    background-color: #fff ;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.recent-posts{
+    text-align: justify;
+    margin-right: 10%;
+}
+.quick-form form input,.quick-form form textarea{
+    margin-top: 1%;
+}
+.quick-form form button{
+    background:none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
